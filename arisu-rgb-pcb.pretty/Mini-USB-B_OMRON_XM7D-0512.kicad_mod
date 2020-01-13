@@ -1,4 +1,4 @@
-(module Mini-USB-B_OMRON_XM7D-0512 (layer F.Cu) (tedit 5E1BD57B)
+(module Mini-USB-B_OMRON_XM7D-0512 (layer F.Cu) (tedit 5E1C0C71)
   (fp_text reference REF** (at -2.369083 -9.810876) (layer F.SilkS)
     (effects (font (size 0.640292 0.640292) (thickness 0.015)))
   )
@@ -30,4 +30,9 @@
   (pad 6 thru_hole oval (at 3.7 0) (size 1.308 2.616) (drill oval 0.8 1.9) (layers *.Cu *.Mask))
   (pad 6 thru_hole oval (at -3.7 0) (size 1.308 2.616) (drill oval 0.8 1.9) (layers *.Cu *.Mask))
   (pad 6 thru_hole oval (at -3.7 -4.75) (size 1.308 2.616) (drill oval 0.8 1.9) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/lib/XM7D-0512--3DModel-STEP-56544.STEP
+    (offset (xyz 0 8.800000000000001 2.1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 0))
+  )
 )

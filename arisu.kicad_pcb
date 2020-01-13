@@ -355,7 +355,7 @@
     (add_net VCC)
   )
 
-  (module arisu-rgb-pcb:Mini-USB-B_OMRON_XM7D-0512 (layer B.Cu) (tedit 5E1BD57B) (tstamp 5C4DDCAA)
+  (module arisu-rgb-pcb:Mini-USB-B_OMRON_XM7D-0512 (layer B.Cu) (tedit 5E1C0C71) (tstamp 5C4DDCAA)
     (at 175.26 31.75 180)
     (path /5E41CA3E)
     (fp_text reference J1 (at -4.49 6.75) (layer B.SilkS)
@@ -398,6 +398,11 @@
       (net 78 "Net-(J1-Pad3)"))
     (pad 1 thru_hole circle (at 1.6 -0.9 180) (size 1.208 1.208) (drill 0.7) (layers *.Cu *.Mask)
       (net 4 VCC))
+    (model ${KIPRJMOD}/lib/XM7D-0512--3DModel-STEP-56544.STEP
+      (offset (xyz 0 8.800000000000001 2.1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 0))
+    )
   )
 
   (module Fate_Parts:SW_Cherry_MX_1.50u_PCB (layer F.Cu) (tedit 5C4D15BE) (tstamp 5C4CF78E)
@@ -10809,7 +10814,6 @@
   (via (at 151.136 43.764) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 87))
   (segment (start 136.144 28.772) (end 136.144 26.416) (width 0.25) (layer F.Cu) (net 87))
   (segment (start 151.136 43.764) (end 136.144 28.772) (width 0.25) (layer F.Cu) (net 87))
-  (segment (start 169.814 44.564) (end 151.936 44.564) (width 0.25) (layer B.Cu) (net 94) (status 10))
   (segment (start 173.764 34.87759) (end 173.764 35.188999) (width 0.25) (layer B.Cu) (net 88))
   (segment (start 172.9364 34.04999) (end 173.764 34.87759) (width 0.25) (layer B.Cu) (net 88))
   (segment (start 157.082846 34.04999) (end 172.9364 34.04999) (width 0.25) (layer B.Cu) (net 88))
@@ -10884,6 +10888,7 @@
   (via (at 159.452153 39.702153) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 93))
   (segment (start 167.053847 39.702153) (end 159.452153 39.702153) (width 0.25) (layer F.Cu) (net 93))
   (segment (start 169.926 36.83) (end 167.053847 39.702153) (width 0.25) (layer F.Cu) (net 93))
+  (segment (start 169.814 44.564) (end 151.936 44.564) (width 0.25) (layer B.Cu) (net 94) (status 10))
   (segment (start 115.124411 92.495551) (end 120.480493 97.851633) (width 0.25) (layer F.Cu) (net 94) (status 20))
   (segment (start 115.124411 77.237565) (end 115.124411 92.495551) (width 0.25) (layer F.Cu) (net 94) (status 10))
   (segment (start 114.426744 76.539898) (end 115.124411 77.237565) (width 0.25) (layer F.Cu) (net 94) (status 30))
