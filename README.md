@@ -1,15 +1,29 @@
-# Arisu Keyboard PCB
-アリス PCB designed using KiCad. The layout is inspired by Lyn's EM7 and TGR Alice with some modification of my own.
+# Arisu Keyboard PCB - RGB & DIY mod
 
-Key differences:
-- I removed the extra [B] key on the right half and shifted the [NM,.?] row to the left by 0.25U.
-- Shifted the 3 keys to the right and added arrow keys.
-- Tweaked the bottom so that the 1.5U keys doesn't protrude out a little.
+Arisu RGB Keyboard PCB, originally designed by [FateNozomi](https://github.com/FateNozomi), modified by [LouWii](https://github.com/LouWii).
 
-Shifting the [NM,.?] row to the left by 0.25U required quite some work on the arrangement of keys for the right half.
-As a result, this does not give the same typing experience as Lyn's EM7 and TGR Alice.
-Lyn's EM7 and TGR Alice uses the home row as the center point to vertically align both halves while I used the number row instead.
-Due to the nature of staggered keyboards, aligning using the number row resulted in the home row not being aligned.
+The main differences with the original design are:
+
+* RGB LEDs added for underglow (12 LEDs)
+* Some components replaced with their through-hole version for easy soldering
+* Micro-USB replaced with a mini-USB with through-hole soldering (for better strength)
+
+The layout remains **unchanged** from the original design.
+
+Original presentation:
+
+> アリス PCB designed using KiCad. The layout is inspired by Lyn's EM7 and TGR Alice with some modification of my own.
+>
+> Key differences:
+>
+> * I removed the extra [B] key on the right half and shifted the [NM,.?] row to the left by 0.25U.
+> * Shifted the 3 keys to the right and added arrow keys.
+> * Tweaked the bottom so that the 1.5U keys doesn't protrude out a little.
+
+> Shifting the [NM,.?] row to the left by 0.25U required quite some work on the arrangement of keys for the right half.
+> As a result, this does not give the same typing experience as Lyn's EM7 and TGR Alice.
+> Lyn's EM7 and TGR Alice uses the home row as the center point to vertically align both halves while I used the number row instead.
+> Due to the nature of staggered keyboards, aligning using the number row resulted in the home row not being aligned.
 
 Disclaimer: Use these files at your own risk.
 
